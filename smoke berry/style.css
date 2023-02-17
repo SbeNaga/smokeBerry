@@ -1,0 +1,175 @@
+*,:before,:after
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    position: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lilita One';
+    position: relative;
+    overflow-y: scroll;
+    background: #F9F7F7;
+}
+
+/* весь хедер */
+.info--header 
+{
+    padding :3%;
+    height: 1ex;
+    background-color:#F9F7F7 ;
+}
+
+
+/* Лого */
+.header--logo
+{
+    align-items: center;
+    padding: 1wh;
+    display: flex;
+    height: 220px;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 110px;
+    color: #000000;
+
+}
+/* li */
+li
+{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+    list-style: none;
+}
+/* заглавления */
+h1
+{
+    font-size: 96px;
+    color: black;
+    font-family: 'Lilita One';
+
+}
+.h2-geo
+{
+
+    display: flex;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+
+}
+.h2-mail
+{
+    display: flex;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+
+}
+.h2-phone
+{
+    display: flex;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+
+}
+/* изображения */
+.img-nav
+{
+    width: 37px;
+    height: 37px;
+    justify-content: center;
+}
+.nav-link li a img
+{
+    height: 30px; 
+    width: 30px;
+}
+.nav-img-bot
+{
+    width: 58px;
+    height: 66px;
+}
+/* навигация */
+.header--nav-link
+{
+    display: flex;
+    justify-content:start;
+    padding-top:1%;
+    background-color: #C7D7EE;
+    height: 95px;
+}
+.nav-link
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-catalog
+{
+    
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.nav-about
+{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+.nav-delivery
+{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.nav-contacts
+{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+/*hrefы*/
+a
+{
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+}
