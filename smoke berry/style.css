@@ -6,15 +6,25 @@
 }
 body
 {
+    overflow-x: hidden;
     position: flex;
     margin: 0;
     padding: 0;
-    font-family: 'Lilita One';
     position: relative;
     overflow-y: scroll;
     background: #F9F7F7;
 }
-
+/* container */
+.container  
+{
+    position: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-y: scroll;
+    background: #F9F7F7;
+    background: url(/img/дымок\ 1.svg);
+}
 /* весь хедер */
 .info--header 
 {
@@ -56,6 +66,50 @@ h1
     font-size: 96px;
     color: black;
     font-family: 'Lilita One';
+
+}
+h3
+{
+    font-family: IBM Plex Serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    color: black;
+}
+h4
+{
+    text-align: center;
+    font-family: IBM Plex Serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: black;
+    
+}
+h6
+{
+    font-family: 'IBM Plex Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #000000;
+}
+p
+{
+    font-family: IBM Plex Serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: left;
 
 }
 .h2-geo
@@ -106,10 +160,15 @@ h1
 }
 .nav-img-bot
 {
-    width: 58px;
-    height: 66px;
+  justify-content: right;
+}
+.location-img
+{
+    height: 520px;
+    width: 609px;
 }
 /* навигация */
+
 .header--nav-link
 {
     display: flex;
@@ -172,4 +231,62 @@ a
     padding-left: 30px;
     text-decoration: none;
     color: black;
+}
+/*ads block*/
+.ads
+{
+    display: flex;
+    height: 651px;
+    width: 1955px;
+    justify-content: center;
+
+
+}
+/* about block*/
+.main-about
+{   
+    padding-top: 70px;
+    justify-content: center;
+    display: flex;
+    width: 1030px;
+    margin-bottom:0 ;
+    padding-bottom: 0;
+}
+.main-about-first
+{
+    justify-content: center;
+    display: flex;
+    width: 1030px;
+    margin-bottom:0 ;
+    padding-bottom: 0;
+}
+.main-about-second
+{
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.border-about-bottom
+{
+    padding-top: 40px;
+    border-bottom: 1px solid #5082E4;
+}
+.about-block
+{   
+    border-top: 1px solid #5082E4;
+    width: 1030px;
+    height: 800px;
+}
+/*contac block*/
+.us-block
+{
+    width: 1960px;
+    height: 1380px;
+}
+.us
+{
+    text-align: center  ;
+    height: 1380px;
+    width: 1960px;
+    padding-top: 100px;
+
 }
