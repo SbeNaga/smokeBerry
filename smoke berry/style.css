@@ -93,6 +93,18 @@ h4
     color: black;
     
 }
+h5
+{
+    font-family: IBM Plex Serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.52;
+
+}
 h6
 {
     font-family: 'IBM Plex Serif';
@@ -242,6 +254,13 @@ a
 
 
 }
+/*main*/
+main
+{
+    width: 1920px;
+    height: 1600px;
+}
+
 /* about block*/
 .main-about
 {   
@@ -289,4 +308,33 @@ a
     width: 1960px;
     padding-top: 100px;
 
+}
+/*footer*/
+footer
+{
+
+    width: 1920px;
+    height: 360px;
+    font-size: 16px;
+}
+.contact
+{
+    padding-top: 20px ;
+}
+.footer-end
+{
+    padding-top: 50px;
+}
+.search-block
+{
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+.plaseholder
+{
+    text-align: center;
+    height: 50px;
+    width: 450px;
+    border-radius: 110%;
 }
